@@ -10,7 +10,7 @@
 
 This repository serves as an **exploratory geospatial sandbox** within the ESA **HYDRA-EO** initiative. It hosts open resources for testing, intercomparison, and methodological development, including geospatial data schemas, STAC metadata, analysis scripts, notebooks, and scientific documentation.
 
-⚠️ **Important**\
+⚠️ **Important**
 
 This repository is **not** intended for operational processing chains. It is designed for **testing concepts, exploring synergies, and developing and validating methods** that may later feed into operational or project-level repositories.
 
