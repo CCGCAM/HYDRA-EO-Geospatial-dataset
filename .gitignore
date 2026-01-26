@@ -1,0 +1,16 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+## remove mac files
+.DS_Store
+.DS_Store
+**/.DS_Store
+._*
+# exclude everything in folders
+
+*.zip
+*.nc
+*.RDataTmp*
+.DS_Store
+**/.DS_Store
