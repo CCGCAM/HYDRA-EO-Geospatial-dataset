@@ -1,4 +1,4 @@
-# HYDRA-EO Geo-spatial  Dataset
+# HYDRA-EO Geo-spatial Dataset
 
 <p align="center">
 
@@ -13,6 +13,20 @@ This repository serves as an **exploratory geospatial sandbox** within the ESA *
 ⚠️ **Important**
 
 This repository is **not** intended for operational processing chains. It is designed for **testing concepts, exploring synergies, and developing and validating methods** that may later feed into operational or project-level repositories.
+
+------------------------------------------------------------------------
+
+### **Project Resources**
+
+Project Website (overview & status): <https://ccgcam.github.io/HydraEO/>
+
+Workflow Documentation & Details: <https://ccgcam.github.io/HYDRA-EO-workflow/>
+
+**Github** Repositories:
+
+<https://github.com/CCGCAM/HydraEo>
+
+<https://github.com/CCGCAM/HYDRA-EO-workflow>
 
 ------------------------------------------------------------------------
 
