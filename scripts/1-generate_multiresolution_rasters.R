@@ -11,7 +11,7 @@ library(leaflet)
 # INPUTS
 # ---------------------------------------------------------------------------
 aoi_path <- "data/sites/Olive_orchard.geojson"
-out_dir  <- "data/sites/rasters"
+out_dir  <- "data/rasters"
 dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
 
 # ---------------------------------------------------------------------------
