@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="site_lelystad_area" id="site_lelystad_area">
+	<SimpleField name="id" type="float"></SimpleField>
+	<SimpleField name="left" type="float"></SimpleField>
+	<SimpleField name="top" type="float"></SimpleField>
+	<SimpleField name="right" type="float"></SimpleField>
+	<SimpleField name="bottom" type="float"></SimpleField>
+</Schema>
+<Folder><name>site_lelystad_area</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#site_lelystad_area">
+		<SimpleData name="id">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>5.5468308372833,52.531073531129 5.546124166029,52.5388475535277 5.5498985748072,52.5388405077419 5.55079341942809,52.5311737700523 5.5468308372833,52.531073531129</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

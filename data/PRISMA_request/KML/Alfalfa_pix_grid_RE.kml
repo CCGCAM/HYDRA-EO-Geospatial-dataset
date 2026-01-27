@@ -1,0 +1,2130 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="pix_grid_RE" id="pix_grid_RE">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="DN" type="int"></SimpleField>
+</Schema>
+<Folder><name>pix_grid_RE</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">1</SimpleData>
+		<SimpleData name="DN">1240</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7695854432392,44.7109993285152 10.7695827005298,44.7109093476753 10.7697088859131,44.7109073918268 10.7697116288179,44.7109973726606 10.7695854432392,44.7109993285152</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">2</SimpleData>
+		<SimpleData name="DN">1164</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7697116288179,44.7109973726606 10.7697088859131,44.7109073918268 10.7698350712836,44.7109054358389 10.7698378143836,44.7109954166665 10.7697116288179,44.7109973726606</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">3</SimpleData>
+		<SimpleData name="DN">1124</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7698378143836,44.7109954166665 10.7698350712836,44.7109054358389 10.7699612566412,44.7109034797116 10.7699639999365,44.7109934605332 10.7698378143836,44.7109954166665</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">4</SimpleData>
+		<SimpleData name="DN">1150</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7699639999365,44.7109934605332 10.7699612566412,44.7109034797116 10.7700874419859,44.710901523445 10.7700901854766,44.7109915042605 10.7699639999365,44.7109934605332</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">5</SimpleData>
+		<SimpleData name="DN">1166</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7700901854766,44.7109915042605 10.7700874419859,44.710901523445 10.7702136273178,44.710899567039 10.7702163710038,44.7109895478484 10.7700901854766,44.7109915042605</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">6</SimpleData>
+		<SimpleData name="DN">1050</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7702163710038,44.7109895478484 10.7702136273178,44.710899567039 10.7703398126368,44.7108976104937 10.7703425565182,44.710987591297 10.7702163710038,44.7109895478484</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">7</SimpleData>
+		<SimpleData name="DN">825</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7703425565182,44.710987591297 10.7703398126368,44.7108976104937 10.770465997943,44.7108956538091 10.7704687420197,44.7109856346062 10.7703425565182,44.710987591297</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">8</SimpleData>
+		<SimpleData name="DN">730</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7704687420197,44.7109856346062 10.770465997943,44.7108956538091 10.7705921832363,44.7108936969851 10.7705949275083,44.7109836777761 10.7704687420197,44.7109856346062</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">9</SimpleData>
+		<SimpleData name="DN">824</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7705949275083,44.7109836777761 10.7705921832363,44.7108936969851 10.7707183685167,44.7108917400217 10.7707211129841,44.7109817208066 10.7705949275083,44.7109836777761</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">10</SimpleData>
+		<SimpleData name="DN">906</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7707211129841,44.7109817208066 10.7707183685167,44.7108917400217 10.7708445537843,44.710889782919 10.770847298447,44.7109797636978 10.7707211129841,44.7109817208066</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">11</SimpleData>
+		<SimpleData name="DN">898</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.770847298447,44.7109797636978 10.7708445537843,44.710889782919 10.7709707390391,44.7108878256769 10.7709734838971,44.7109778064497 10.770847298447,44.7109797636978</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">12</SimpleData>
+		<SimpleData name="DN">888</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7709734838971,44.7109778064497 10.7709707390391,44.7108878256769 10.7710969242809,44.7108858682955 10.7710996693343,44.7109758490621 10.7709734838971,44.7109778064497</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">13</SimpleData>
+		<SimpleData name="DN">792</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7710996693343,44.7109758490621 10.7710941792405,44.7107958875273 10.7712203642741,44.7107939300126 10.7712258547586,44.7109738915352 10.7710996693343,44.7109758490621</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">14</SimpleData>
+		<SimpleData name="DN">1222</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7695827005298,44.7109093476753 10.7695799578333,44.7108193668339 10.7697061430213,44.7108174109914 10.7697088859131,44.7109073918268 10.7695827005298,44.7109093476753</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">15</SimpleData>
+		<SimpleData name="DN">1106</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7697088859131,44.7109073918268 10.7697061430213,44.7108174109914 10.7698323281964,44.7108154550096 10.7698350712836,44.7109054358389 10.7697088859131,44.7109073918268</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">16</SimpleData>
+		<SimpleData name="DN">1116</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7698350712836,44.7109054358389 10.7698323281964,44.7108154550096 10.7699585133586,44.7108134988885 10.7699612566412,44.7109034797116 10.7698350712836,44.7109054358389</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">17</SimpleData>
+		<SimpleData name="DN">1130</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7699612566412,44.7109034797116 10.7699585133586,44.7108134988885 10.770084698508,44.710811542628 10.7700874419859,44.710901523445 10.7699612566412,44.7109034797116</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">18</SimpleData>
+		<SimpleData name="DN">1190</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7700874419859,44.710901523445 10.770084698508,44.710811542628 10.7702108836446,44.7108095862281 10.7702136273178,44.710899567039 10.7700874419859,44.710901523445</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">19</SimpleData>
+		<SimpleData name="DN">988</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7702136273178,44.710899567039 10.7702108836446,44.7108095862281 10.7703370687683,44.7108076296889 10.7703398126368,44.7108976104937 10.7702136273178,44.710899567039</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">20</SimpleData>
+		<SimpleData name="DN">694</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7703398126368,44.7108976104937 10.7703370687683,44.7108076296889 10.7704632538791,44.7108056730104 10.770465997943,44.7108956538091 10.7703398126368,44.7108976104937</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">21</SimpleData>
+		<SimpleData name="DN">594</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.770465997943,44.7108956538091 10.7704632538791,44.7108056730104 10.7705894389771,44.7108037161925 10.7705921832363,44.7108936969851 10.770465997943,44.7108956538091</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">22</SimpleData>
+		<SimpleData name="DN">572</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7705921832363,44.7108936969851 10.7705894389771,44.7108037161925 10.7707156240622,44.7108017592352 10.7707183685167,44.7108917400217 10.7705921832363,44.7108936969851</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">23</SimpleData>
+		<SimpleData name="DN">590</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7707183685167,44.7108917400217 10.7707156240622,44.7108017592352 10.7708418091345,44.7107998021386 10.7708445537843,44.710889782919 10.7707183685167,44.7108917400217</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">24</SimpleData>
+		<SimpleData name="DN">651</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7708445537843,44.710889782919 10.7708418091345,44.7107998021386 10.7709679941939,44.7107978449026 10.7709707390391,44.7108878256769 10.7708445537843,44.710889782919</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">25</SimpleData>
+		<SimpleData name="DN">719</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7709707390391,44.7108878256769 10.7709679941939,44.7107978449026 10.7710941792405,44.7107958875273 10.7710969242809,44.7108858682955 10.7709707390391,44.7108878256769</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">26</SimpleData>
+		<SimpleData name="DN">1142</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7695799578333,44.7108193668339 10.7695772151496,44.7107293859909 10.7697034001422,44.7107274301545 10.7697061430213,44.7108174109914 10.7695799578333,44.7108193668339</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">27</SimpleData>
+		<SimpleData name="DN">1050</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7697061430213,44.7108174109914 10.7697034001422,44.7107274301545 10.769829585122,44.7107254741789 10.7698323281964,44.7108154550096 10.7697061430213,44.7108174109914</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">28</SimpleData>
+		<SimpleData name="DN">1118</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7698323281964,44.7108154550096 10.769829585122,44.7107254741789 10.7699557700889,44.7107235180638 10.7699585133586,44.7108134988885 10.7698323281964,44.7108154550096</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">29</SimpleData>
+		<SimpleData name="DN">1160</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7699585133586,44.7108134988885 10.7699557700889,44.7107235180638 10.770081955043,44.7107215618094 10.770084698508,44.710811542628 10.7699585133586,44.7108134988885</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">30</SimpleData>
+		<SimpleData name="DN">1172</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.770084698508,44.710811542628 10.770081955043,44.7107215618094 10.7702081399842,44.7107196054157 10.7702108836446,44.7108095862281 10.770084698508,44.710811542628</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">31</SimpleData>
+		<SimpleData name="DN">942</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7702108836446,44.7108095862281 10.7702081399842,44.7107196054157 10.7703343249126,44.7107176488826 10.7703370687683,44.7108076296889 10.7702108836446,44.7108095862281</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">32</SimpleData>
+		<SimpleData name="DN">583</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7703370687683,44.7108076296889 10.7703343249126,44.7107176488826 10.7704605098281,44.7107156922101 10.7704632538791,44.7108056730104 10.7703370687683,44.7108076296889</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">33</SimpleData>
+		<SimpleData name="DN">574</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7704632538791,44.7108056730104 10.7704605098281,44.7107156922101 10.7705866947308,44.7107137353983 10.7705894389771,44.7108037161925 10.7704632538791,44.7108056730104</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">34</SimpleData>
+		<SimpleData name="DN">554</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7705894389771,44.7108037161925 10.7705866947308,44.7107137353983 10.7707128796206,44.7107117784471 10.7707156240622,44.7108017592352 10.7705894389771,44.7108037161925</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">35</SimpleData>
+		<SimpleData name="DN">558</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7707156240622,44.7108017592352 10.7707128796206,44.7107117784471 10.7708390644975,44.7107098213566 10.7708418091345,44.7107998021386 10.7707156240622,44.7108017592352</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">36</SimpleData>
+		<SimpleData name="DN">568</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7708418091345,44.7107998021386 10.7708390644975,44.7107098213566 10.7709652493616,44.7107078641268 10.7709679941939,44.7107978449026 10.7708418091345,44.7107998021386</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">37</SimpleData>
+		<SimpleData name="DN">608</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7709679941939,44.7107978449026 10.7709652493616,44.7107078641268 10.7710914342128,44.7107059067576 10.7710941792405,44.7107958875273 10.7709679941939,44.7107978449026</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">38</SimpleData>
+		<SimpleData name="DN">750</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7710941792405,44.7107958875273 10.7710914342128,44.7107059067576 10.7712176190512,44.710703949249 10.7712203642741,44.7107939300126 10.7710941792405,44.7107958875273</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">39</SimpleData>
+		<SimpleData name="DN">1104</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7695772151496,44.7107293859909 10.7695744724787,44.7106394051464 10.769700657276,44.7106374493161 10.7697034001422,44.7107274301545 10.7695772151496,44.7107293859909</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">40</SimpleData>
+		<SimpleData name="DN">1048</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7697034001422,44.7107274301545 10.769700657276,44.7106374493161 10.7698268420605,44.7106354933465 10.769829585122,44.7107254741789 10.7697034001422,44.7107274301545</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">41</SimpleData>
+		<SimpleData name="DN">1224</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7699557700889,44.7107235180638 10.7699530268321,44.7106335372376 10.7700792115909,44.7106315809893 10.770081955043,44.7107215618094 10.7699557700889,44.7107235180638</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">42</SimpleData>
+		<SimpleData name="DN">1118</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.770081955043,44.7107215618094 10.7700792115909,44.7106315809893 10.7702053963368,44.7106296246016 10.7702081399842,44.7107196054157 10.770081955043,44.7107215618094</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">43</SimpleData>
+		<SimpleData name="DN">786</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7702081399842,44.7107196054157 10.7702053963368,44.7106296246016 10.7703315810698,44.7106276680746 10.7703343249126,44.7107176488826 10.7702081399842,44.7107196054157</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">44</SimpleData>
+		<SimpleData name="DN">552</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7703343249126,44.7107176488826 10.7703315810698,44.7106276680746 10.77045776579,44.7106257114083 10.7704605098281,44.7107156922101 10.7703343249126,44.7107176488826</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">45</SimpleData>
+		<SimpleData name="DN">561</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7704605098281,44.7107156922101 10.77045776579,44.7106257114083 10.7705839504973,44.7106237546026 10.7705866947308,44.7107137353983 10.7704605098281,44.7107156922101</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">46</SimpleData>
+		<SimpleData name="DN">569</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7705866947308,44.7107137353983 10.7705839504973,44.7106237546026 10.7707101351918,44.7106217976575 10.7707128796206,44.7107117784471 10.7705866947308,44.7107137353983</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">47</SimpleData>
+		<SimpleData name="DN">582</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7707128796206,44.7107117784471 10.7707101351918,44.7106217976575 10.7708363198734,44.7106198405731 10.7708390644975,44.7107098213566 10.7707128796206,44.7107117784471</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">48</SimpleData>
+		<SimpleData name="DN">580</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7708390644975,44.7107098213566 10.7708363198734,44.7106198405731 10.7709625045422,44.7106178833494 10.7709652493616,44.7107078641268 10.7708390644975,44.7107098213566</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">49</SimpleData>
+		<SimpleData name="DN">594</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7709652493616,44.7107078641268 10.7709625045422,44.7106178833494 10.7710886891981,44.7106159259863 10.7710914342128,44.7107059067576 10.7709652493616,44.7107078641268</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">50</SimpleData>
+		<SimpleData name="DN">786</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7710914342128,44.7107059067576 10.7710886891981,44.7106159259863 10.7712148738411,44.7106139684838 10.7712176190512,44.710703949249 10.7710914342128,44.7107059067576</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">51</SimpleData>
+		<SimpleData name="DN">1152</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.769829585122,44.7107254741789 10.7698240990119,44.7105455125126 10.7699502835881,44.7105435564098 10.7699557700889,44.7107235180638 10.769829585122,44.7107254741789</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">52</SimpleData>
+		<SimpleData name="DN">1044</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7695744724787,44.7106394051464 10.7695717298207,44.7105494243002 10.7696979144227,44.7105474684761 10.769700657276,44.7106374493161 10.7695744724787,44.7106394051464</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">53</SimpleData>
+		<SimpleData name="DN">1078</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.769700657276,44.7106374493161 10.7696979144227,44.7105474684761 10.7698240990119,44.7105455125126 10.7698268420605,44.7106354933465 10.769700657276,44.7106374493161</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">54</SimpleData>
+		<SimpleData name="DN">1188</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7699530268321,44.7106335372376 10.7699502835881,44.7105435564098 10.7700764681516,44.7105416001676 10.7700792115909,44.7106315809893 10.7699530268321,44.7106335372376</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">55</SimpleData>
+		<SimpleData name="DN">1048</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7700792115909,44.7106315809893 10.7700764681516,44.7105416001676 10.7702026527021,44.710539643786 10.7702053963368,44.7106296246016 10.7700792115909,44.7106315809893</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">56</SimpleData>
+		<SimpleData name="DN">680</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7702053963368,44.7106296246016 10.7702026527021,44.710539643786 10.7703288372399,44.7105376872651 10.7703315810698,44.7106276680746 10.7702053963368,44.7106296246016</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">57</SimpleData>
+		<SimpleData name="DN">558</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7703315810698,44.7106276680746 10.7703288372399,44.7105376872651 10.7704550217647,44.7105357306049 10.77045776579,44.7106257114083 10.7703315810698,44.7106276680746</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">58</SimpleData>
+		<SimpleData name="DN">567</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.77045776579,44.7106257114083 10.7704550217647,44.7105357306049 10.7705812062767,44.7105337738053 10.7705839504973,44.7106237546026 10.77045776579,44.7106257114083</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">59</SimpleData>
+		<SimpleData name="DN">558</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7705839504973,44.7106237546026 10.7705812062767,44.7105337738053 10.7707073907759,44.7105318168664 10.7707101351918,44.7106217976575 10.7705839504973,44.7106237546026</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">60</SimpleData>
+		<SimpleData name="DN">548</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7707101351918,44.7106217976575 10.7707073907759,44.7105318168664 10.7708335752622,44.7105298597881 10.7708363198734,44.7106198405731 10.7707101351918,44.7106217976575</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">61</SimpleData>
+		<SimpleData name="DN">590</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7708363198734,44.7106198405731 10.7708335752622,44.7105298597881 10.7709597597356,44.7105279025704 10.7709625045422,44.7106178833494 10.7708363198734,44.7106198405731</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">62</SimpleData>
+		<SimpleData name="DN">628</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7709625045422,44.7106178833494 10.7709597597356,44.7105279025704 10.7710859441962,44.7105259452134 10.7710886891981,44.7106159259863 10.7709625045422,44.7106178833494</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">63</SimpleData>
+		<SimpleData name="DN">889</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7710886891981,44.7106159259863 10.7710859441962,44.7105259452134 10.7712121286439,44.7105239877171 10.7712148738411,44.7106139684838 10.7710886891981,44.7106159259863</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">64</SimpleData>
+		<SimpleData name="DN">996</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7695717298207,44.7105494243002 10.7695689871756,44.7104594434526 10.7696951715822,44.7104574876345 10.7696979144227,44.7105474684761 10.7695717298207,44.7105494243002</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">65</SimpleData>
+		<SimpleData name="DN">1098</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7696979144227,44.7105474684761 10.7696951715822,44.7104574876345 10.7698213559761,44.7104555316772 10.7698240990119,44.7105455125126 10.7696979144227,44.7105474684761</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">66</SimpleData>
+		<SimpleData name="DN">1168</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7698240990119,44.7105455125126 10.7698213559761,44.7104555316772 10.769947540357,44.7104535755804 10.7699502835881,44.7105435564098 10.7698240990119,44.7105455125126</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">67</SimpleData>
+		<SimpleData name="DN">1196</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7699502835881,44.7105435564098 10.769947540357,44.7104535755804 10.7700737247251,44.7104516193443 10.7700764681516,44.7105416001676 10.7699502835881,44.7105435564098</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">68</SimpleData>
+		<SimpleData name="DN">936</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7700764681516,44.7105416001676 10.7700737247251,44.7104516193443 10.7701999090804,44.7104496629689 10.7702026527021,44.710539643786 10.7700764681516,44.7105416001676</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">69</SimpleData>
+		<SimpleData name="DN">602</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7702026527021,44.710539643786 10.7701999090804,44.7104496629689 10.7703260934228,44.7104477064541 10.7703288372399,44.7105376872651 10.7702026527021,44.710539643786</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">70</SimpleData>
+		<SimpleData name="DN">538</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7703288372399,44.7105376872651 10.7703260934228,44.7104477064541 10.7704522777523,44.7104457498 10.7704550217647,44.7105357306049 10.7703288372399,44.7105376872651</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">71</SimpleData>
+		<SimpleData name="DN">560</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7704550217647,44.7105357306049 10.7704522777523,44.7104457498 10.770578462069,44.7104437930065 10.7705812062767,44.7105337738053 10.7704550217647,44.7105357306049</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">72</SimpleData>
+		<SimpleData name="DN">568</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7705812062767,44.7105337738053 10.770578462069,44.7104437930065 10.7707046463728,44.7104418360736 10.7707073907759,44.7105318168664 10.7705812062767,44.7105337738053</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">73</SimpleData>
+		<SimpleData name="DN">582</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7707073907759,44.7105318168664 10.7707046463728,44.7104418360736 10.7708308306638,44.7104398790015 10.7708335752622,44.7105298597881 10.7707073907759,44.7105318168664</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">74</SimpleData>
+		<SimpleData name="DN">616</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7708335752622,44.7105298597881 10.7708308306638,44.7104398790015 10.7709570149419,44.7104379217899 10.7709597597356,44.7105279025704 10.7708335752622,44.7105298597881</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">75</SimpleData>
+		<SimpleData name="DN">736</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7709597597356,44.7105279025704 10.7709570149419,44.7104379217899 10.7710831992072,44.710435964439 10.7710859441962,44.7105259452134 10.7709597597356,44.7105279025704</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">76</SimpleData>
+		<SimpleData name="DN">986</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7710859441962,44.7105259452134 10.7710831992072,44.710435964439 10.7712093834596,44.7104340069488 10.7712121286439,44.7105239877171 10.7710859441962,44.7105259452134</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">77</SimpleData>
+		<SimpleData name="DN">903</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7695689871756,44.7104594434526 10.7695662445433,44.7103694626034 10.7696924287546,44.7103675067914 10.7696951715822,44.7104574876345 10.7695689871756,44.7104594434526</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">78</SimpleData>
+		<SimpleData name="DN">1002</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7696951715822,44.7104574876345 10.7696924287546,44.7103675067914 10.7698186129531,44.7103655508401 10.7698213559761,44.7104555316772 10.7696951715822,44.7104574876345</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">79</SimpleData>
+		<SimpleData name="DN">1120</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7698213559761,44.7104555316772 10.7698186129531,44.7103655508401 10.7699447971387,44.7103635947495 10.769947540357,44.7104535755804 10.7698213559761,44.7104555316772</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">80</SimpleData>
+		<SimpleData name="DN">1152</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.769947540357,44.7104535755804 10.7699447971387,44.7103635947495 10.7700709813115,44.7103616385195 10.7700737247251,44.7104516193443 10.769947540357,44.7104535755804</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">81</SimpleData>
+		<SimpleData name="DN">821</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7700737247251,44.7104516193443 10.7700709813115,44.7103616385195 10.7701971654715,44.7103596821502 10.7701999090804,44.7104496629689 10.7700737247251,44.7104516193443</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">82</SimpleData>
+		<SimpleData name="DN">582</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7701999090804,44.7104496629689 10.7701971654715,44.7103596821502 10.7703233496185,44.7103577256415 10.7703260934228,44.7104477064541 10.7701999090804,44.7104496629689</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">83</SimpleData>
+		<SimpleData name="DN">548</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7703260934228,44.7104477064541 10.7703233496185,44.7103577256415 10.7704495337527,44.7103557689935 10.7704522777523,44.7104457498 10.7703260934228,44.7104477064541</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">84</SimpleData>
+		<SimpleData name="DN">575</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7704522777523,44.7104457498 10.7704495337527,44.7103557689935 10.7705757178741,44.7103538122061 10.770578462069,44.7104437930065 10.7704522777523,44.7104457498</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">85</SimpleData>
+		<SimpleData name="DN">586</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.770578462069,44.7104437930065 10.7705757178741,44.7103538122061 10.7707019019826,44.7103518552794 10.7707046463728,44.7104418360736 10.770578462069,44.7104437930065</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">86</SimpleData>
+		<SimpleData name="DN">834</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7709570149419,44.7104379217899 10.7709542701611,44.7103479410078 10.771080454231,44.7103459836631 10.7710831992072,44.710435964439 10.7709570149419,44.7104379217899</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">87</SimpleData>
+		<SimpleData name="DN">1082</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7710831992072,44.710435964439 10.771080454231,44.7103459836631 10.7712066382881,44.7103440261789 10.7712093834596,44.7104340069488 10.7710831992072,44.710435964439</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">88</SimpleData>
+		<SimpleData name="DN">542</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7707046463728,44.7104418360736 10.7706991576053,44.7102618744835 10.7708253415056,44.7102599174235 10.7708308306638,44.7104398790015 10.7707046463728,44.7104418360736</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">89</SimpleData>
+		<SimpleData name="DN">620</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7708308306638,44.7104398790015 10.7708253415056,44.7102599174235 10.7709515253931,44.7102579602242 10.7709570149419,44.7104379217899 10.7708308306638,44.7104398790015</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">90</SimpleData>
+		<SimpleData name="DN">766</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7695662445433,44.7103694626034 10.7695635019238,44.7102794817526 10.7696896859398,44.7102775259468 10.7696924287546,44.7103675067914 10.7695662445433,44.7103694626034</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">91</SimpleData>
+		<SimpleData name="DN">862</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7696924287546,44.7103675067914 10.7696896859398,44.7102775259468 10.769815869943,44.7102755700016 10.7698186129531,44.7103655508401 10.7696924287546,44.7103675067914</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">92</SimpleData>
+		<SimpleData name="DN">1058</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7698186129531,44.7103655508401 10.769815869943,44.7102755700016 10.7699420539333,44.710273613917 10.7699447971387,44.7103635947495 10.7698186129531,44.7103655508401</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">93</SimpleData>
+		<SimpleData name="DN">1026</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7699447971387,44.7103635947495 10.7699420539333,44.710273613917 10.7700682379108,44.7102716576931 10.7700709813115,44.7103616385195 10.7699447971387,44.7103635947495</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">94</SimpleData>
+		<SimpleData name="DN">686</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7700709813115,44.7103616385195 10.7700682379108,44.7102716576931 10.7701944218754,44.7102697013299 10.7701971654715,44.7103596821502 10.7700709813115,44.7103616385195</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">95</SimpleData>
+		<SimpleData name="DN">568</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7701971654715,44.7103596821502 10.7701944218754,44.7102697013299 10.7703206058271,44.7102677448273 10.7703233496185,44.7103577256415 10.7701971654715,44.7103596821502</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">96</SimpleData>
+		<SimpleData name="DN">542</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7703233496185,44.7103577256415 10.7703206058271,44.7102677448273 10.770446789766,44.7102657881854 10.7704495337527,44.7103557689935 10.7703233496185,44.7103577256415</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">97</SimpleData>
+		<SimpleData name="DN">526</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7704495337527,44.7103557689935 10.770446789766,44.7102657881854 10.7705729736921,44.7102638314041 10.7705757178741,44.7103538122061 10.7704495337527,44.7103557689935</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">98</SimpleData>
+		<SimpleData name="DN">543</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7705757178741,44.7103538122061 10.7705729736921,44.7102638314041 10.7706991576053,44.7102618744835 10.7707019019826,44.7103518552794 10.7705757178741,44.7103538122061</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">99</SimpleData>
+		<SimpleData name="DN">930</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7709542701611,44.7103479410078 10.7709515253931,44.7102579602242 10.7710777092677,44.7102560028856 10.771080454231,44.7103459836631 10.7709542701611,44.7103479410078</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">100</SimpleData>
+		<SimpleData name="DN">1234</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.771080454231,44.7103459836631 10.7710777092677,44.7102560028856 10.7712038931294,44.7102540454075 10.7712066382881,44.7103440261789 10.771080454231,44.7103459836631</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">101</SimpleData>
+		<SimpleData name="DN">798</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7695635019238,44.7102794817526 10.7695607593172,44.7101895009003 10.7696869431379,44.7101875451005 10.7696896859398,44.7102775259468 10.7695635019238,44.7102794817526</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">102</SimpleData>
+		<SimpleData name="DN">832</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7696896859398,44.7102775259468 10.7696869431379,44.7101875451005 10.7698131269458,44.7101855891614 10.769815869943,44.7102755700016 10.7696896859398,44.7102775259468</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">103</SimpleData>
+		<SimpleData name="DN">941</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.769815869943,44.7102755700016 10.7698131269458,44.7101855891614 10.7699393107408,44.710183633083 10.7699420539333,44.710273613917 10.769815869943,44.7102755700016</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">104</SimpleData>
+		<SimpleData name="DN">883</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7699420539333,44.710273613917 10.7699393107408,44.710183633083 10.7700654945229,44.7101816768652 10.7700682379108,44.7102716576931 10.7699420539333,44.710273613917</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">105</SimpleData>
+		<SimpleData name="DN">660</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7700682379108,44.7102716576931 10.7700654945229,44.7101816768652 10.7701916782922,44.7101797205081 10.7701944218754,44.7102697013299 10.7700682379108,44.7102716576931</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">106</SimpleData>
+		<SimpleData name="DN">582</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7701944218754,44.7102697013299 10.7701916782922,44.7101797205081 10.7703178620486,44.7101777640116 10.7703206058271,44.7102677448273 10.7701944218754,44.7102697013299</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">107</SimpleData>
+		<SimpleData name="DN">529</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7703206058271,44.7102677448273 10.7703178620486,44.7101777640116 10.7704440457922,44.7101758073758 10.770446789766,44.7102657881854 10.7703206058271,44.7102677448273</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">108</SimpleData>
+		<SimpleData name="DN">496</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.770446789766,44.7102657881854 10.7704440457922,44.7101758073758 10.7705702295229,44.7101738506006 10.7705729736921,44.7102638314041 10.770446789766,44.7102657881854</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">109</SimpleData>
+		<SimpleData name="DN">529</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7705729736921,44.7102638314041 10.7705702295229,44.7101738506006 10.7706964132408,44.7101718936861 10.7706991576053,44.7102618744835 10.7705729736921,44.7102638314041</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">110</SimpleData>
+		<SimpleData name="DN">546</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7706991576053,44.7102618744835 10.7706964132408,44.7101718936861 10.7708225969458,44.7101699366322 10.7708253415056,44.7102599174235 10.7706991576053,44.7102618744835</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">111</SimpleData>
+		<SimpleData name="DN">692</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7708253415056,44.7102599174235 10.7708225969458,44.7101699366322 10.7709487806379,44.710167979439 10.7709515253931,44.7102579602242 10.7708253415056,44.7102599174235</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">112</SimpleData>
+		<SimpleData name="DN">1028</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7709515253931,44.7102579602242 10.7709487806379,44.710167979439 10.7710749643172,44.7101660221065 10.7710777092677,44.7102560028856 10.7709515253931,44.7102579602242</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">113</SimpleData>
+		<SimpleData name="DN">1260</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7710777092677,44.7102560028856 10.7710749643172,44.7101660221065 10.7712011479837,44.7101640646346 10.7712038931294,44.7102540454075 10.7710777092677,44.7102560028856</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">114</SimpleData>
+		<SimpleData name="DN">998</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7695607593172,44.7101895009003 10.7695580167235,44.7100995200464 10.7696842003488,44.7100975642527 10.7696869431379,44.7101875451005 10.7695607593172,44.7101895009003</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">115</SimpleData>
+		<SimpleData name="DN">1026</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7696869431379,44.7101875451005 10.7696842003488,44.7100975642527 10.769936567561,44.7100936522474 10.7699393107408,44.710183633083 10.7696869431379,44.7101875451005</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">116</SimpleData>
+		<SimpleData name="DN">820</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7699393107408,44.710183633083 10.769936567561,44.7100936522474 10.7700627511479,44.7100916960358 10.7700654945229,44.7101816768652 10.7699393107408,44.710183633083</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">117</SimpleData>
+		<SimpleData name="DN">680</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7700654945229,44.7101816768652 10.7700627511479,44.7100916960358 10.7701889347218,44.7100897396847 10.7701916782922,44.7101797205081 10.7700654945229,44.7101816768652</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">118</SimpleData>
+		<SimpleData name="DN">607</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7701916782922,44.7101797205081 10.7701889347218,44.7100897396847 10.7703151182829,44.7100877831944 10.7703178620486,44.7101777640116 10.7701916782922,44.7101797205081</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">119</SimpleData>
+		<SimpleData name="DN">568</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7703178620486,44.7101777640116 10.7703151182829,44.7100877831944 10.7704413018312,44.7100858265647 10.7704440457922,44.7101758073758 10.7703178620486,44.7101777640116</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">120</SimpleData>
+		<SimpleData name="DN">550</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7704440457922,44.7101758073758 10.7704413018312,44.7100858265647 10.7705674853666,44.7100838697956 10.7705702295229,44.7101738506006 10.7704440457922,44.7101758073758</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">121</SimpleData>
+		<SimpleData name="DN">578</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7705702295229,44.7101738506006 10.7705674853666,44.7100838697956 10.7706936688892,44.7100819128872 10.7706964132408,44.7101718936861 10.7705702295229,44.7101738506006</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">122</SimpleData>
+		<SimpleData name="DN">666</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7706964132408,44.7101718936861 10.7706936688892,44.7100819128872 10.7708198523988,44.7100799558394 10.7708225969458,44.7101699366322 10.7706964132408,44.7101718936861</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">123</SimpleData>
+		<SimpleData name="DN">832</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7708225969458,44.7101699366322 10.7708198523988,44.7100799558394 10.7709460358957,44.7100779986523 10.7709487806379,44.710167979439 10.7708225969458,44.7101699366322</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">124</SimpleData>
+		<SimpleData name="DN">1076</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7709487806379,44.710167979439 10.7709460358957,44.7100779986523 10.7710722193796,44.7100760413258 10.7710749643172,44.7101660221065 10.7709487806379,44.710167979439</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">125</SimpleData>
+		<SimpleData name="DN">1230</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7710749643172,44.7101660221065 10.7710722193796,44.7100760413258 10.7711984028508,44.71007408386 10.7712011479837,44.7101640646346 10.7710749643172,44.7101660221065</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">126</SimpleData>
+		<SimpleData name="DN">1096</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7695580167235,44.7100995200464 10.7695552741426,44.7100095391909 10.7696814575726,44.7100075834034 10.7696842003488,44.7100975642527 10.7695580167235,44.7100995200464</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">127</SimpleData>
+		<SimpleData name="DN">1122</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7696842003488,44.7100975642527 10.7696814575726,44.7100075834034 10.7698076409898,44.7100056274765 10.7698103839614,44.7100956083198 10.7696842003488,44.7100975642527</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">128</SimpleData>
+		<SimpleData name="DN">1086</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7698103839614,44.7100956083198 10.7698076409898,44.7100056274765 10.7699338243942,44.7100036714103 10.769936567561,44.7100936522474 10.7698103839614,44.7100956083198</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">129</SimpleData>
+		<SimpleData name="DN">680</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.769936567561,44.7100936522474 10.7699338243942,44.7100036714103 10.7700600077857,44.7100017152047 10.7700627511479,44.7100916960358 10.769936567561,44.7100936522474</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">130</SimpleData>
+		<SimpleData name="DN">602</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7700627511479,44.7100916960358 10.7700600077857,44.7100017152047 10.7701861911643,44.7099997588598 10.7701889347218,44.7100897396847 10.7700627511479,44.7100916960358</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">131</SimpleData>
+		<SimpleData name="DN">550</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7701889347218,44.7100897396847 10.7701861911643,44.7099997588598 10.7703123745301,44.7099978023755 10.7703151182829,44.7100877831944 10.7701889347218,44.7100897396847</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">132</SimpleData>
+		<SimpleData name="DN">537</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7703151182829,44.7100877831944 10.7703123745301,44.7099978023755 10.7704385578831,44.7099958457519 10.7704413018312,44.7100858265647 10.7703151182829,44.7100877831944</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">133</SimpleData>
+		<SimpleData name="DN">576</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7704413018312,44.7100858265647 10.7704385578831,44.7099958457519 10.7705647412232,44.709993888989 10.7705674853666,44.7100838697956 10.7704413018312,44.7100858265647</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">134</SimpleData>
+		<SimpleData name="DN">676</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7705674853666,44.7100838697956 10.7705647412232,44.709993888989 10.7706909245504,44.7099919320867 10.7706936688892,44.7100819128872 10.7705674853666,44.7100838697956</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">135</SimpleData>
+		<SimpleData name="DN">878</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7706936688892,44.7100819128872 10.7706909245504,44.7099919320867 10.7708171078647,44.709989975045 10.7708198523988,44.7100799558394 10.7706936688892,44.7100819128872</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">136</SimpleData>
+		<SimpleData name="DN">916</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7708198523988,44.7100799558394 10.7708171078647,44.709989975045 10.7709432911663,44.709988017864 10.7709460358957,44.7100779986523 10.7708198523988,44.7100799558394</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">137</SimpleData>
+		<SimpleData name="DN">1032</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7709460358957,44.7100779986523 10.7709432911663,44.709988017864 10.7710694744549,44.7099860605436 10.7710722193796,44.7100760413258 10.7709460358957,44.7100779986523</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">138</SimpleData>
+		<SimpleData name="DN">1136</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7710722193796,44.7100760413258 10.7710694744549,44.7099860605436 10.7711956577307,44.709984103084 10.7711984028508,44.71007408386 10.7710722193796,44.7100760413258</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">139</SimpleData>
+		<SimpleData name="DN">1084</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7695552741426,44.7100095391909 10.7695525315745,44.7099195583339 10.7696787148092,44.7099176025525 10.7696814575726,44.7100075834034 10.7695552741426,44.7100095391909</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">140</SimpleData>
+		<SimpleData name="DN">1128</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7696814575726,44.7100075834034 10.7696787148092,44.7099176025525 10.7698048980311,44.7099156466317 10.7698076409898,44.7100056274765 10.7696814575726,44.7100075834034</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">141</SimpleData>
+		<SimpleData name="DN">1094</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7698076409898,44.7100056274765 10.7698048980311,44.7099156466317 10.7699310812402,44.7099136905716 10.7699338243942,44.7100036714103 10.7698076409898,44.7100056274765</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">142</SimpleData>
+		<SimpleData name="DN">624</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7699338243942,44.7100036714103 10.7699310812402,44.7099136905716 10.7700572644364,44.7099117343721 10.7700600077857,44.7100017152047 10.7699338243942,44.7100036714103</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">143</SimpleData>
+		<SimpleData name="DN">546</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7700600077857,44.7100017152047 10.7700572644364,44.7099117343721 10.7701834476197,44.7099097780333 10.7701861911643,44.7099997588598 10.7700600077857,44.7100017152047</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">144</SimpleData>
+		<SimpleData name="DN">558</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7701861911643,44.7099997588598 10.7701834476197,44.7099097780333 10.7703096307902,44.7099078215551 10.7703123745301,44.7099978023755 10.7701861911643,44.7099997588598</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">145</SimpleData>
+		<SimpleData name="DN">528</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7703123745301,44.7099978023755 10.7703096307902,44.7099078215551 10.7704358139478,44.7099058649376 10.7704385578831,44.7099958457519 10.7703123745301,44.7099978023755</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">146</SimpleData>
+		<SimpleData name="DN">544</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7704385578831,44.7099958457519 10.7704358139478,44.7099058649376 10.7705619970926,44.7099039081808 10.7705647412232,44.709993888989 10.7704385578831,44.7099958457519</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">147</SimpleData>
+		<SimpleData name="DN">636</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7705647412232,44.709993888989 10.7705619970926,44.7099039081808 10.7706881802245,44.7099019512846 10.7706909245504,44.7099919320867 10.7705647412232,44.709993888989</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">148</SimpleData>
+		<SimpleData name="DN">867</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7706909245504,44.7099919320867 10.7706881802245,44.7099019512846 10.7708143633435,44.709899994249 10.7708171078647,44.709989975045 10.7706909245504,44.7099919320867</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">149</SimpleData>
+		<SimpleData name="DN">930</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7708171078647,44.709989975045 10.7708143633435,44.709899994249 10.7709405464497,44.7098980370741 10.7709432911663,44.709988017864 10.7708171078647,44.709989975045</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">150</SimpleData>
+		<SimpleData name="DN">987</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7709432911663,44.709988017864 10.7709405464497,44.7098980370741 10.771066729543,44.7098960797599 10.7710694744549,44.7099860605436 10.7709432911663,44.709988017864</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">151</SimpleData>
+		<SimpleData name="DN">965</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7710694744549,44.7099860605436 10.771066729543,44.7098960797599 10.7711929126235,44.7098941223063 10.7711956577307,44.709984103084 10.7710694744549,44.7099860605436</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">152</SimpleData>
+		<SimpleData name="DN">1102</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7695525315745,44.7099195583339 10.7695497890193,44.7098295774754 10.7696759720587,44.7098276217 10.7696787148092,44.7099176025525 10.7695525315745,44.7099195583339</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">153</SimpleData>
+		<SimpleData name="DN">1116</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7696787148092,44.7099176025525 10.7696759720587,44.7098276217 10.7698021550853,44.7098256657854 10.7698048980311,44.7099156466317 10.7696787148092,44.7099176025525</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">154</SimpleData>
+		<SimpleData name="DN">982</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7698048980311,44.7099156466317 10.7698021550853,44.7098256657854 10.769928338099,44.7098237097313 10.7699310812402,44.7099136905716 10.7698048980311,44.7099156466317</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">155</SimpleData>
+		<SimpleData name="DN">577</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7699310812402,44.7099136905716 10.769928338099,44.7098237097313 10.7700545210999,44.709821753538 10.7700572644364,44.7099117343721 10.7699310812402,44.7099136905716</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">156</SimpleData>
+		<SimpleData name="DN">552</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7700572644364,44.7099117343721 10.7700545210999,44.709821753538 10.7701807040879,44.7098197972053 10.7701834476197,44.7099097780333 10.7700572644364,44.7099117343721</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">157</SimpleData>
+		<SimpleData name="DN">562</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7701834476197,44.7099097780333 10.7701807040879,44.7098197972053 10.7703068870631,44.7098178407332 10.7703096307902,44.7099078215551 10.7701834476197,44.7099097780333</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">158</SimpleData>
+		<SimpleData name="DN">526</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7703096307902,44.7099078215551 10.7703068870631,44.7098178407332 10.7704330700254,44.7098158841218 10.7704358139478,44.7099058649376 10.7703096307902,44.7099078215551</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">159</SimpleData>
+		<SimpleData name="DN">561</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7704358139478,44.7099058649376 10.7704330700254,44.7098158841218 10.7705592529748,44.7098139273711 10.7705619970926,44.7099039081808 10.7704358139478,44.7099058649376</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">160</SimpleData>
+		<SimpleData name="DN">599</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7705619970926,44.7099039081808 10.7705592529748,44.7098139273711 10.7706854359114,44.709811970481 10.7706881802245,44.7099019512846 10.7705619970926,44.7099039081808</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">161</SimpleData>
+		<SimpleData name="DN">802</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7706881802245,44.7099019512846 10.7706854359114,44.709811970481 10.7708116188351,44.7098100134515 10.7708143633435,44.709899994249 10.7706881802245,44.7099019512846</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">162</SimpleData>
+		<SimpleData name="DN">1028</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7708143633435,44.709899994249 10.7708116188351,44.7098100134515 10.770937801746,44.7098080562827 10.7709405464497,44.7098980370741 10.7708143633435,44.709899994249</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">163</SimpleData>
+		<SimpleData name="DN">1076</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7709405464497,44.7098980370741 10.770937801746,44.7098080562827 10.771063984644,44.7098060989746 10.771066729543,44.7098960797599 10.7709405464497,44.7098980370741</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">164</SimpleData>
+		<SimpleData name="DN">1070</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.771066729543,44.7098960797599 10.771063984644,44.7098060989746 10.7711901675292,44.7098041415271 10.7711929126235,44.7098941223063 10.771066729543,44.7098960797599</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">165</SimpleData>
+		<SimpleData name="DN">1138</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7695497890193,44.7098295774754 10.7695470464769,44.7097395966153 10.769673229321,44.709737640846 10.7696759720587,44.7098276217 10.7695497890193,44.7098295774754</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">166</SimpleData>
+		<SimpleData name="DN">1152</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7696759720587,44.7098276217 10.769673229321,44.709737640846 10.7697994121523,44.7097356849375 10.7698021550853,44.7098256657854 10.7696759720587,44.7098276217</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">167</SimpleData>
+		<SimpleData name="DN">881</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7698021550853,44.7098256657854 10.7697994121523,44.7097356849375 10.7699255949707,44.7097337288895 10.769928338099,44.7098237097313 10.7698021550853,44.7098256657854</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">168</SimpleData>
+		<SimpleData name="DN">582</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.769928338099,44.7098237097313 10.7699255949707,44.7097337288895 10.7700517777763,44.7097317727023 10.7700545210999,44.709821753538 10.769928338099,44.7098237097313</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">169</SimpleData>
+		<SimpleData name="DN">542</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7701807040879,44.7098197972053 10.770177960569,44.7097298163757 10.7703041433488,44.7097278599097 10.7703068870631,44.7098178407332 10.7701807040879,44.7098197972053</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">170</SimpleData>
+		<SimpleData name="DN">514</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7703068870631,44.7098178407332 10.7703041433488,44.7097278599097 10.7704303261158,44.7097259033044 10.7704330700254,44.7098158841218 10.7703068870631,44.7098178407332</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">171</SimpleData>
+		<SimpleData name="DN">560</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7704330700254,44.7098158841218 10.7704303261158,44.7097259033044 10.7705565088699,44.7097239465598 10.7705592529748,44.7098139273711 10.7704330700254,44.7098158841218</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">172</SimpleData>
+		<SimpleData name="DN">888</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7706854359114,44.709811970481 10.7706826916112,44.7097219896758 10.7708088743396,44.7097200326524 10.7708116188351,44.7098100134515 10.7706854359114,44.709811970481</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">173</SimpleData>
+		<SimpleData name="DN">1114</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7708116188351,44.7098100134515 10.7708088743396,44.7097200326524 10.7709350570552,44.7097180754897 10.770937801746,44.7098080562827 10.7708116188351,44.7098100134515</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">174</SimpleData>
+		<SimpleData name="DN">1132</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.770937801746,44.7098080562827 10.7709350570552,44.7097180754897 10.7710612397579,44.7097161181877 10.771063984644,44.7098060989746 10.770937801746,44.7098080562827</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">175</SimpleData>
+		<SimpleData name="DN">1148</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.771063984644,44.7098060989746 10.7710612397579,44.7097161181877 10.7711874224477,44.7097141607464 10.7711901675292,44.7098041415271 10.771063984644,44.7098060989746</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">176</SimpleData>
+		<SimpleData name="DN">574</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7700545210999,44.709821753538 10.7700490344655,44.709641791865 10.7701752170629,44.7096398355445 10.7701807040879,44.7098197972053 10.7700545210999,44.709821753538</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">177</SimpleData>
+		<SimpleData name="DN">642</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7705592529748,44.7098139273711 10.7705537647779,44.7096339657469 10.7706799473239,44.709632008869 10.7706854359114,44.709811970481 10.7705592529748,44.7098139273711</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">178</SimpleData>
+		<SimpleData name="DN">1188</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7695470464769,44.7097395966153 10.7695443039474,44.7096496157536 10.7696704865962,44.7096476599905 10.769673229321,44.709737640846 10.7695470464769,44.7097395966153</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">179</SimpleData>
+		<SimpleData name="DN">1146</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.769673229321,44.709737640846 10.7696704865962,44.7096476599905 10.7697966692322,44.709645704088 10.7697994121523,44.7097356849375 10.769673229321,44.709737640846</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">180</SimpleData>
+		<SimpleData name="DN">718</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7697994121523,44.7097356849375 10.7697966692322,44.709645704088 10.7699228518553,44.7096437480462 10.7699255949707,44.7097337288895 10.7697994121523,44.7097356849375</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">181</SimpleData>
+		<SimpleData name="DN">587</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7699255949707,44.7097337288895 10.7699228518553,44.7096437480462 10.7700490344655,44.709641791865 10.7700517777763,44.7097317727023 10.7699255949707,44.7097337288895</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">182</SimpleData>
+		<SimpleData name="DN">536</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.770177960569,44.7097298163757 10.7701752170629,44.7096398355445 10.7703013996474,44.7096378790847 10.7703041433488,44.7097278599097 10.770177960569,44.7097298163757</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">183</SimpleData>
+		<SimpleData name="DN">502</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7703041433488,44.7097278599097 10.7703013996474,44.7096378790847 10.7704275822191,44.7096359224855 10.7704303261158,44.7097259033044 10.7703041433488,44.7097278599097</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">184</SimpleData>
+		<SimpleData name="DN">551</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7704303261158,44.7097259033044 10.7704275822191,44.7096359224855 10.7705537647779,44.7096339657469 10.7705565088699,44.7097239465598 10.7704303261158,44.7097259033044</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">185</SimpleData>
+		<SimpleData name="DN">940</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7706826916112,44.7097219896758 10.7706799473239,44.709632008869 10.770806129857,44.7096300518518 10.7708088743396,44.7097200326524 10.7706826916112,44.7097219896758</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">186</SimpleData>
+		<SimpleData name="DN">1152</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7708088743396,44.7097200326524 10.770806129857,44.7096300518518 10.7709323123772,44.7096280946952 10.7709350570552,44.7097180754897 10.7708088743396,44.7097200326524</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">187</SimpleData>
+		<SimpleData name="DN">1204</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7709350570552,44.7097180754897 10.7709323123772,44.7096280946952 10.7710584948846,44.7096261373993 10.7710612397579,44.7097161181877 10.7709350570552,44.7097180754897</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">188</SimpleData>
+		<SimpleData name="DN">1236</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7710612397579,44.7097161181877 10.7710584948846,44.7096261373993 10.7711846773791,44.709624179964 10.7711874224477,44.7097141607464 10.7710612397579,44.7097161181877</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">189</SimpleData>
+		<SimpleData name="DN">1194</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7695443039474,44.7096496157536 10.7695415614308,44.7095596348904 10.7696677438843,44.7095576791333 10.7696704865962,44.7096476599905 10.7695443039474,44.7096496157536</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">190</SimpleData>
+		<SimpleData name="DN">1072</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7696704865962,44.7096476599905 10.7696677438843,44.7095576791333 10.7697939263249,44.709555723237 10.7697966692322,44.709645704088 10.7696704865962,44.7096476599905</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">191</SimpleData>
+		<SimpleData name="DN">602</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7697966692322,44.709645704088 10.7697939263249,44.709555723237 10.7699201087527,44.7095537672013 10.7699228518553,44.7096437480462 10.7697966692322,44.709645704088</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">192</SimpleData>
+		<SimpleData name="DN">552</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7699228518553,44.7096437480462 10.7699201087527,44.7095537672013 10.7700462911676,44.7095518110262 10.7700490344655,44.709641791865 10.7699228518553,44.7096437480462</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">193</SimpleData>
+		<SimpleData name="DN">532</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7700490344655,44.709641791865 10.7700462911676,44.7095518110262 10.7702986559589,44.7095478982581 10.7703013996474,44.7096378790847 10.7700490344655,44.709641791865</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">194</SimpleData>
+		<SimpleData name="DN">538</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7703013996474,44.7096378790847 10.7702986559589,44.7095478982581 10.7704248383352,44.709545941665 10.7704275822191,44.7096359224855 10.7703013996474,44.7096378790847</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">195</SimpleData>
+		<SimpleData name="DN">582</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7704275822191,44.7096359224855 10.7704248383352,44.709545941665 10.7705510206987,44.7095439849325 10.7705537647779,44.7096339657469 10.7704275822191,44.7096359224855</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">196</SimpleData>
+		<SimpleData name="DN">654</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7705537647779,44.7096339657469 10.7705510206987,44.7095439849325 10.7706772030494,44.7095420280608 10.7706799473239,44.709632008869 10.7705537647779,44.7096339657469</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">197</SimpleData>
+		<SimpleData name="DN">1020</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7706799473239,44.709632008869 10.7706772030494,44.7095420280608 10.7708033853872,44.7095400710496 10.770806129857,44.7096300518518 10.7706799473239,44.709632008869</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">198</SimpleData>
+		<SimpleData name="DN">1100</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.770806129857,44.7096300518518 10.7708033853872,44.7095400710496 10.7709295677121,44.7095381138992 10.7709323123772,44.7096280946952 10.770806129857,44.7096300518518</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">199</SimpleData>
+		<SimpleData name="DN">1118</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7709323123772,44.7096280946952 10.7709295677121,44.7095381138992 10.7710557500242,44.7095361566094 10.7710584948846,44.7096261373993 10.7709323123772,44.7096280946952</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">200</SimpleData>
+		<SimpleData name="DN">1116</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7710584948846,44.7096261373993 10.7710557500242,44.7095361566094 10.7711819323234,44.7095341991802 10.7711846773791,44.709624179964 10.7710584948846,44.7096261373993</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">201</SimpleData>
+		<SimpleData name="DN">1138</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7695415614308,44.7095596348904 10.769538818927,44.7094696540256 10.7696650011851,44.7094676982747 10.7696677438843,44.7095576791333 10.7695415614308,44.7095596348904</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">202</SimpleData>
+		<SimpleData name="DN">948</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7696677438843,44.7095576791333 10.7696650011851,44.7094676982747 10.7697911834304,44.7094657423844 10.7697939263249,44.709555723237 10.7696677438843,44.7095576791333</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">203</SimpleData>
+		<SimpleData name="DN">587</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7697939263249,44.709555723237 10.7697911834304,44.7094657423844 10.7699173656629,44.7094637863548 10.7699201087527,44.7095537672013 10.7697939263249,44.709555723237</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">204</SimpleData>
+		<SimpleData name="DN">545</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7699201087527,44.7095537672013 10.7699173656629,44.7094637863548 10.7700435478825,44.7094618301858 10.7700462911676,44.7095518110262 10.7699201087527,44.7095537672013</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">205</SimpleData>
+		<SimpleData name="DN">527</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7700462911676,44.7095518110262 10.7700435478825,44.7094618301858 10.7701697300893,44.7094598738775 10.7701724735696,44.7095498547118 10.7700462911676,44.7095518110262</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">206</SimpleData>
+		<SimpleData name="DN">526</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7701724735696,44.7095498547118 10.7701697300893,44.7094598738775 10.7702959122832,44.7094579174299 10.7702986559589,44.7095478982581 10.7701724735696,44.7095498547118</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">207</SimpleData>
+		<SimpleData name="DN">532</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7702986559589,44.7095478982581 10.7702959122832,44.7094579174299 10.7704220944642,44.7094559608429 10.7704248383352,44.709545941665 10.7702986559589,44.7095478982581</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">208</SimpleData>
+		<SimpleData name="DN">604</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7704248383352,44.709545941665 10.7704220944642,44.7094559608429 10.7705482766324,44.7094540041166 10.7705510206987,44.7095439849325 10.7704248383352,44.709545941665</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">209</SimpleData>
+		<SimpleData name="DN">767</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7705510206987,44.7095439849325 10.7705482766324,44.7094540041166 10.7706744587877,44.7094520472509 10.7706772030494,44.7095420280608 10.7705510206987,44.7095439849325</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">210</SimpleData>
+		<SimpleData name="DN">1164</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7706772030494,44.7095420280608 10.7706744587877,44.7094520472509 10.7708006409302,44.7094500902459 10.7708033853872,44.7095400710496 10.7706772030494,44.7095420280608</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">211</SimpleData>
+		<SimpleData name="DN">1208</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7708033853872,44.7095400710496 10.7708006409302,44.7094500902459 10.7709268230598,44.7094481331015 10.7709295677121,44.7095381138992 10.7708033853872,44.7095400710496</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">212</SimpleData>
+		<SimpleData name="DN">1184</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7709295677121,44.7095381138992 10.7709268230598,44.7094481331015 10.7710530051766,44.7094461758178 10.7710557500242,44.7095361566094 10.7709295677121,44.7095381138992</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">213</SimpleData>
+		<SimpleData name="DN">1094</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7710557500242,44.7095361566094 10.7710530051766,44.7094461758178 10.7711791872805,44.7094442183948 10.7711819323234,44.7095341991802 10.7710557500242,44.7095361566094</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">214</SimpleData>
+		<SimpleData name="DN">1116</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.769538818927,44.7094696540256 10.769536076436,44.7093796731592 10.7696622584989,44.7093777174144 10.7696650011851,44.7094676982747 10.769538818927,44.7094696540256</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">215</SimpleData>
+		<SimpleData name="DN">810</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7696650011851,44.7094676982747 10.7696622584989,44.7093777174144 10.7697884405489,44.7093757615303 10.7697911834304,44.7094657423844 10.7696650011851,44.7094676982747</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">216</SimpleData>
+		<SimpleData name="DN">550</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7697911834304,44.7094657423844 10.7697884405489,44.7093757615303 10.769914622586,44.7093738055068 10.7699173656629,44.7094637863548 10.7697911834304,44.7094657423844</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">217</SimpleData>
+		<SimpleData name="DN">536</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7699173656629,44.7094637863548 10.769914622586,44.7093738055068 10.7700408046103,44.7093718493439 10.7700435478825,44.7094618301858 10.7699173656629,44.7094637863548</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">218</SimpleData>
+		<SimpleData name="DN">520</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7700435478825,44.7094618301858 10.7700408046103,44.7093718493439 10.7701669866217,44.7093698930417 10.7701697300893,44.7094598738775 10.7700435478825,44.7094618301858</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">219</SimpleData>
+		<SimpleData name="DN">536</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7701697300893,44.7094598738775 10.7701669866217,44.7093698930417 10.7702931686203,44.7093679366002 10.7702959122832,44.7094579174299 10.7701697300893,44.7094598738775</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">220</SimpleData>
+		<SimpleData name="DN">548</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7702959122832,44.7094579174299 10.7702931686203,44.7093679366002 10.7704193506061,44.7093659800193 10.7704220944642,44.7094559608429 10.7702959122832,44.7094579174299</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">221</SimpleData>
+		<SimpleData name="DN">618</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7704220944642,44.7094559608429 10.7704193506061,44.7093659800193 10.770545532579,44.7093640232991 10.7705482766324,44.7094540041166 10.7704220944642,44.7094559608429</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">222</SimpleData>
+		<SimpleData name="DN">867</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7705482766324,44.7094540041166 10.770545532579,44.7093640232991 10.770671714539,44.7093620664395 10.7706744587877,44.7094520472509 10.7705482766324,44.7094540041166</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">223</SimpleData>
+		<SimpleData name="DN">1200</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7706744587877,44.7094520472509 10.770671714539,44.7093620664395 10.7707978964861,44.7093601094406 10.7708006409302,44.7094500902459 10.7706744587877,44.7094520472509</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">224</SimpleData>
+		<SimpleData name="DN">1184</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7708006409302,44.7094500902459 10.7707978964861,44.7093601094406 10.7709240784204,44.7093581523023 10.7709268230598,44.7094481331015 10.7708006409302,44.7094500902459</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">225</SimpleData>
+		<SimpleData name="DN">1176</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7709268230598,44.7094481331015 10.7709240784204,44.7093581523023 10.7710502603419,44.7093561950247 10.7710530051766,44.7094461758178 10.7709268230598,44.7094481331015</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">226</SimpleData>
+		<SimpleData name="DN">1164</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7710530051766,44.7094461758178 10.7710502603419,44.7093561950247 10.7711764422505,44.7093542376078 10.7711791872805,44.7094442183948 10.7710530051766,44.7094461758178</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">227</SimpleData>
+		<SimpleData name="DN">974</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.769536076436,44.7093796731592 10.7695333339579,44.7092896922913 10.7696595158254,44.7092877365526 10.7696622584989,44.7093777174144 10.769536076436,44.7093796731592</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">228</SimpleData>
+		<SimpleData name="DN">824</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7696622584989,44.7093777174144 10.7696595158254,44.7092877365526 10.7697856976801,44.7092857806746 10.7697884405489,44.7093757615303 10.7696622584989,44.7093777174144</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">229</SimpleData>
+		<SimpleData name="DN">675</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7697884405489,44.7093757615303 10.7697856976801,44.7092857806746 10.769911879522,44.7092838246572 10.769914622586,44.7093738055068 10.7697884405489,44.7093757615303</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">230</SimpleData>
+		<SimpleData name="DN">570</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.769914622586,44.7093738055068 10.769911879522,44.7092838246572 10.7700380613509,44.7092818685004 10.7700408046103,44.7093718493439 10.769914622586,44.7093738055068</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">231</SimpleData>
+		<SimpleData name="DN">527</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7700408046103,44.7093718493439 10.7700380613509,44.7092818685004 10.7701642431671,44.7092799122043 10.7701669866217,44.7093698930417 10.7700408046103,44.7093718493439</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">232</SimpleData>
+		<SimpleData name="DN">508</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7701669866217,44.7093698930417 10.7701642431671,44.7092799122043 10.7702904249704,44.7092779557689 10.7702931686203,44.7093679366002 10.7701669866217,44.7093698930417</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">233</SimpleData>
+		<SimpleData name="DN">549</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7702931686203,44.7093679366002 10.7702904249704,44.7092779557689 10.7704166067608,44.7092759991941 10.7704193506061,44.7093659800193 10.7702931686203,44.7093679366002</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">234</SimpleData>
+		<SimpleData name="DN">668</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7704193506061,44.7093659800193 10.7704166067608,44.7092759991941 10.7705427885383,44.70927404248 10.770545532579,44.7093640232991 10.7704193506061,44.7093659800193</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">235</SimpleData>
+		<SimpleData name="DN">979</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.770545532579,44.7093640232991 10.7705427885383,44.70927404248 10.7706689703031,44.7092720856265 10.770671714539,44.7093620664395 10.770545532579,44.7093640232991</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">236</SimpleData>
+		<SimpleData name="DN">1226</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.770671714539,44.7093620664395 10.7706689703031,44.7092720856265 10.7707951520549,44.7092701286337 10.7707978964861,44.7093601094406 10.770671714539,44.7093620664395</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">237</SimpleData>
+		<SimpleData name="DN">1208</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7707978964861,44.7093601094406 10.7707951520549,44.7092701286337 10.7709213337939,44.7092681715016 10.7709240784204,44.7093581523023 10.7707978964861,44.7093601094406</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">238</SimpleData>
+		<SimpleData name="DN">1198</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7709240784204,44.7093581523023 10.7709213337939,44.7092681715016 10.7710475155201,44.7092662142301 10.7710502603419,44.7093561950247 10.7709240784204,44.7093581523023</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">239</SimpleData>
+		<SimpleData name="DN">1182</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7710502603419,44.7093561950247 10.7710475155201,44.7092662142301 10.7711736972333,44.7092642568192 10.7711764422505,44.7093542376078 10.7710502603419,44.7093561950247</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">240</SimpleData>
+		<SimpleData name="DN">786</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7695333339579,44.7092896922913 10.7695305914926,44.7091997114219 10.7696567731649,44.7091977556893 10.7696595158254,44.7092877365526 10.7695333339579,44.7092896922913</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">241</SimpleData>
+		<SimpleData name="DN">795</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7696595158254,44.7092877365526 10.7696567731649,44.7091977556893 10.7697829548242,44.7091957998173 10.7697856976801,44.7092857806746 10.7696595158254,44.7092877365526</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">242</SimpleData>
+		<SimpleData name="DN">808</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7697856976801,44.7092857806746 10.7697829548242,44.7091957998173 10.7699091364708,44.709193843806 10.769911879522,44.7092838246572 10.7697856976801,44.7092857806746</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">243</SimpleData>
+		<SimpleData name="DN">724</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.769911879522,44.7092838246572 10.7699091364708,44.709193843806 10.7700353181044,44.7091918876554 10.7700380613509,44.7092818685004 10.769911879522,44.7092838246572</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">244</SimpleData>
+		<SimpleData name="DN">734</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7700380613509,44.7092818685004 10.7700353181044,44.7091918876554 10.7701614997253,44.7091899313654 10.7701642431671,44.7092799122043 10.7700380613509,44.7092818685004</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">245</SimpleData>
+		<SimpleData name="DN">724</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7701642431671,44.7092799122043 10.7701614997253,44.7091899313654 10.7702876813332,44.7091879749361 10.7702904249704,44.7092779557689 10.7701642431671,44.7092799122043</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">246</SimpleData>
+		<SimpleData name="DN">704</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7702904249704,44.7092779557689 10.7702876813332,44.7091879749361 10.7704138629283,44.7091860183674 10.7704166067608,44.7092759991941 10.7702904249704,44.7092779557689</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">247</SimpleData>
+		<SimpleData name="DN">788</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7704166067608,44.7092759991941 10.7704138629283,44.7091860183674 10.7705400445106,44.7091840616594 10.7705427885383,44.70927404248 10.7704166067608,44.7092759991941</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">248</SimpleData>
+		<SimpleData name="DN">1062</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7705427885383,44.70927404248 10.7705400445106,44.7091840616594 10.77066622608,44.709182104812 10.7706689703031,44.7092720856265 10.7705427885383,44.70927404248</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">249</SimpleData>
+		<SimpleData name="DN">1174</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7706689703031,44.7092720856265 10.77066622608,44.709182104812 10.7707924076365,44.7091801478253 10.7707951520549,44.7092701286337 10.7706689703031,44.7092720856265</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">250</SimpleData>
+		<SimpleData name="DN">1160</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7707951520549,44.7092701286337 10.7707924076365,44.7091801478253 10.7709185891802,44.7091781906993 10.7709213337939,44.7092681715016 10.7707951520549,44.7092701286337</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">251</SimpleData>
+		<SimpleData name="DN">1148</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7709213337939,44.7092681715016 10.7709185891802,44.7091781906993 10.7710447707111,44.7091762334339 10.7710475155201,44.7092662142301 10.7709213337939,44.7092681715016</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">252</SimpleData>
+		<SimpleData name="DN">1194</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7710475155201,44.7092662142301 10.7710447707111,44.7091762334339 10.771170952229,44.7091742760291 10.7711736972333,44.7092642568192 10.7710475155201,44.7092662142301</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">253</SimpleData>
+		<SimpleData name="DN">618</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7695305914926,44.7091997114219 10.7695278490402,44.7091097305509 10.7696540305171,44.7091077748244 10.7696567731649,44.7091977556893 10.7695305914926,44.7091997114219</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">254</SimpleData>
+		<SimpleData name="DN">686</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7696567731649,44.7091977556893 10.7696540305171,44.7091077748244 10.7697802119812,44.7091058189585 10.7697829548242,44.7091957998173 10.7696567731649,44.7091977556893</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">255</SimpleData>
+		<SimpleData name="DN">766</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7697829548242,44.7091957998173 10.7697802119812,44.7091058189585 10.7699063934324,44.7091038629533 10.7699091364708,44.709193843806 10.7697829548242,44.7091957998173</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">256</SimpleData>
+		<SimpleData name="DN">704</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7699091364708,44.709193843806 10.7699063934324,44.7091038629533 10.7700325748708,44.7091019068088 10.7700353181044,44.7091918876554 10.7699091364708,44.709193843806</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">257</SimpleData>
+		<SimpleData name="DN">652</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7700353181044,44.7091918876554 10.7700325748708,44.7091019068088 10.7701587562963,44.7090999505249 10.7701614997253,44.7091899313654 10.7700353181044,44.7091918876554</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">258</SimpleData>
+		<SimpleData name="DN">698</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7701614997253,44.7091899313654 10.7701587562963,44.7090999505249 10.770284937709,44.7090979941017 10.7702876813332,44.7091879749361 10.7701614997253,44.7091899313654</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">259</SimpleData>
+		<SimpleData name="DN">682</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7702876813332,44.7091879749361 10.770284937709,44.7090979941017 10.7704111191088,44.7090960375391 10.7704138629283,44.7091860183674 10.7702876813332,44.7091879749361</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">260</SimpleData>
+		<SimpleData name="DN">749</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7704138629283,44.7091860183674 10.7704111191088,44.7090960375391 10.7705373004957,44.7090940808372 10.7705400445106,44.7091840616594 10.7704138629283,44.7091860183674</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">261</SimpleData>
+		<SimpleData name="DN">861</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7705400445106,44.7091840616594 10.7705373004957,44.7090940808372 10.7706634818698,44.7090921239959 10.77066622608,44.709182104812 10.7705400445106,44.7091840616594</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">262</SimpleData>
+		<SimpleData name="DN">924</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.77066622608,44.709182104812 10.7706634818698,44.7090921239959 10.770789663231,44.7090901670153 10.7707924076365,44.7091801478253 10.77066622608,44.709182104812</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">263</SimpleData>
+		<SimpleData name="DN">984</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7707924076365,44.7091801478253 10.770789663231,44.7090901670153 10.7709158445794,44.7090882098954 10.7709185891802,44.7091781906993 10.7707924076365,44.7091801478253</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">264</SimpleData>
+		<SimpleData name="DN">1032</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7709185891802,44.7091781906993 10.7709158445794,44.7090882098954 10.7710420259149,44.7090862526361 10.7710447707111,44.7091762334339 10.7709185891802,44.7091781906993</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pix_grid_RE">
+		<SimpleData name="fid">265</SimpleData>
+		<SimpleData name="DN">1152</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.7710447707111,44.7091762334339 10.7710420259149,44.7090862526361 10.7711682072376,44.7090842952375 10.771170952229,44.7091742760291 10.7710447707111,44.7091762334339</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>
