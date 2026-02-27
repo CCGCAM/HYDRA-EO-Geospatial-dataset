@@ -1,0 +1,434 @@
+---
+title: "HYDRA-EO Synthetic Demo: NDVI + Simulation"
+author: "Carlos Camino"
+date: "`r Sys.Date()`"
+always_allow_html: true
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: flatly
+    self_contained: true
+    navbar:
+      title: "HYDRA-EO Synthetic Demo: NDVI + Simulation"
+  pdf_document:
+    toc: true
+    latex_engine: xelatex
+    toc_depth: 4 # Allow up to ### headers in the TOC
+editor_options:
+  markdown:
+    wrap: 72
+---
+
+### HYDRA-EO Synthetic Demo Notebook
+
+This notebook is part of the **HYDRA-EO project (ESA, CROP MULTIPLE
+STRESSORS)**. Here we demonstrate how to use the project’s in-house R
+packages\
+(**ToolsRTM**) to simulate **canopy reflectance (BRF)**, and vegetation
+indices (**NDVI).**
+
+The aim is to illustrate how **radiative transfer models** can be used
+to\
+generate **synthetic datasets** under different stress scenarios
+(biotic/abiotic),\
+which are then used to **validate remote sensing algorithms** and
+analyze the\
+sensitivity of spectral indices to changes in vegetation traits.
+
+> References:\
+> - HYDRA-EO is funded by the European Space Agency (ESA) under the
+> EXPRO+ Tender “Crop Multiple Stressors, Pests and Diseases”. Action
+> 1-12684\
+> - Camino et al., ToolsRTM package (GitLab:
+> [ToolsRTM](https://gitlab.com/caminoccg/toolsrtm))\
+> - Camino et al., SCOPEinR package (GitLab:
+> [SCOPEinR](https://gitlab.com/caminoccg/scopeinr))
+
+### 1. Loading Required Libraries
+
+To begin the exercise, we ensure that all necessary R packages are
+installed and loaded.\
+These libraries support a range of functionalities, including:
+
+-   **Visualization** (`ggplot2`, `plotly`, `leaflet`, `leafem`,
+    `htmlwidgets`)
+-   **Spatial and raster data handling** (`terra`, `sf`, `stars`,
+    `gdalcubes`)
+-   **Data wrangling and tables** (`dplyr`, `tidyr`, `DT`, `magrittr`)
+-   **Remote data access** (`rstac`, `fs`)
+-   **Statistical analysis** (`MASS`, `fields,corrplot`)
+-   **Color palettes and mapping tools** (`viridisLite`, `RColorBrewer`,
+    `leaflet.extras`, `reshape2`)
+
+The script below checks for any missing packages and installs them if
+needed, ensuring a smooth experience when running the rest of the
+notebook.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+required_packages <- c(
+  'ggplot2','plotly','leaflet','htmlwidgets','leafem',
+  'dplyr','DT','tidyr','magrittr',
+ # 'shiny','shinyWidgets','shinybusy','shinythemes',
+  'fs','rstac',
+  'terra','sf','stars','gdalcubes',
+  'MASS','fields','corrplot',
+  'viridisLite','leaflet.extras','reshape2' ,'RColorBrewer'
+)
+
+missing_packages <- required_packages[!(required_packages %in% installed.packages()[,"Package"])]
+
+if (length(missing_packages) > 0) {
+  install.packages(missing_packages)
+}
+# Load the required libraries silently
+invisible(lapply(required_packages, function(pkg) {
+  suppressMessages(library(pkg, character.only = TRUE))
+}))
+```
+
+**Install the ToolsRTM Package**
+
+The **ToolsRTM** package is an R toolkit developed for canopy radiative
+transfer modeling. It integrates forward simulations from well-known
+models such as **PROSPECT** (leaf), **SAIL** (canopy architecture), and
+their coupled form **PROSAIL**.\
+With these RTM models you can:
+
+-   Simulate leaf and canopy reflectance spectra based on input
+    parameters (e.g., chlorophyll, water, leaf structure, LAI, soil
+    background).
+-   Explore how changes in plant traits affect spectral signatures.
+-   Support both forward simulations and inversion workflows for plant
+    trait retrieval.
+-   Launch an interactive **Shiny simulator app** to visualize spectral
+    profiles dynamically.
+
+This package is hosted on
+[GitLab](https://gitlab.com/caminoccg/toolsrtm). It is **not on CRAN**,
+so we install it directly from GitLab using the `remotes` package. For
+exploring more options, you can open the documentation in your browser:
+
+```{r eval=interactive()}
+browseURL("../docs/ToolsRTM.html")
+```
+
+> After installation, you can simply load the package with
+> `library(ToolsRTM)` in future sessions.
+
+```{r}
+if (!requireNamespace("ToolsRTM", quietly = TRUE)) {
+  if (!requireNamespace("remotes", quietly = TRUE)) install.packages("remotes")
+  # Public GitLab repo (no token needed). Set upgrade="never" for reproducibility.
+  remotes::install_gitlab("caminoccg/toolsrtm", upgrade = "never")
+}
+library(ToolsRTM)
+```
+
+### 2. Shiny Simulator
+
+Before running systematic simulations in R, we will use the
+**interactive Shiny app** to explore how changes in **leaf
+biochemistry** and **canopy structure** affect reflectance spectra. This
+step provides intuition for interpreting results later.
+
+**Launch the online simulator** (interactive):
+
+```{r eval=FALSE, warning=FALSE, include=FALSE}
+# Launch the local PROSAIL simulator app 
+shiny::runApp("../apps/PROSAIL/") 
+```
+
+### 3. Plant trait sensitivity
+
+The **ToolsRTM** package includes the helper function
+`getSim_fromLUT()`, which allows us to vary a single input trait across
+a chosen range, keep all others fixed, and directly visualize the
+resulting spectra (using `method = "ggplot"`).
+
+This is a simple way to see how sensitive canopy reflectance is to
+changes in one parameter at a time.\
+Below, we test one examples:
+
+-   **Chlorophyll content (Cab)**, which governs absorption in the
+    visible region
+
+```{r message=FALSE, warning=FALSE, paged.print=FALSE}
+# Cab from 10 to 80 µg/cm², step 10 (Interval)
+cab_plot <- ToolsRTM::getSim_fromLUT(
+  trait   = "Cab",
+  nmin    = 10, nmax = 80, Interval = 10,
+  model   = "PROSAIL",
+  method  = "ggplot"
+)
+
+```
+
+In addition to **Cab**, the `inputs` object in **ToolsRTM** defines many
+other traits that can be varied in `getSim_fromLUT()` or when building
+LUTs. These represent both **leaf-level biochemistry/structure** and
+**canopy/scene parameters**:
+
+**Leaf traits**
+
+-   `Car` — carotenoids (µg/cm²)
+-   `Anth` — anthocyanins (µg/cm² or relative units)
+-   `Cbrown` — brown pigments (0–1, senescence/stress)
+-   `LMA` — leaf mass per area (g/cm², replaced by `Prot + CBC` in
+    PROSPECT-PRO)
+-   `EWT` — equivalent water thickness, same as `Cw` in many PROSAIL
+    formulations (g/cm²)
+-   `Prot` — protein fraction (g/cm², part of LMA in PROSPECT-PRO)
+-   `CBC` — carbon-based constituents (cellulose + lignin; g/cm²)
+-   `N` — leaf structure parameter (dimensionless; controls scattering)
+
+**Canopy traits**
+
+-   `LIDFa`, `LIDFb` — leaf angle distribution parameters (Campbell
+    distribution)
+-   `hspot` — hotspot parameter (0–1, controls BRDF hotspot intensity)
+-   `LAI`, — leaf area index (m²/m²)
+
+**Scene geometry**
+
+-   `tts` — solar zenith angle (°)
+-   `tto` — sensor/view zenith angle (°)
+-   `psi` — relative azimuth angle (°)
+
+### 4. PROSAIL using a LUT
+
+In this section you will:
+
+1)  build a **Look-Up Table (LUT)** of PROSAIL inputs,
+2)  inspect the **sampled ranges**,
+3)  simulate **canopy BRF spectra** for each LUT row, and
+4)  visualize variability and relate it to selected traits (e.g.,
+    **Cab**, **LAI**).
+
+**Build the LUT (100 samples)**
+
+We start from the **default PROSAIL input parameter ranges** provided in
+the ToolsRTM package. A LUT is then generated by random sampling across
+these ranges, in this case with **100 samples**. This LUT will be the
+basis for running the simulations in forward mode.
+
+```{r}
+
+#Get default PROSAIL input list
+inputs <- ToolsRTM::inputsPROSAIL
+
+# (Everything else stays as in defaults; you can tweak similarly if needed)
+
+# 2.2 Generate a LUT with 100 samples
+set.seed(1234)
+LUT <- as.data.frame(ToolsRTM::getLUT(inputs = inputs, nLUT = 100, setseed = 1234))
+# Summarise min–max per parameter
+lut_ranges <- data.frame(
+  Parameter = names(LUT),
+  Min = round(sapply(LUT, min, na.rm = TRUE),3),
+  Max = round(sapply(LUT, max, na.rm = TRUE),3)
+)
+
+# Display in an interactive datatable
+DT::datatable(
+  lut_ranges,
+  caption = "Ranges of sampled input parameters in the LUT",
+  options = list(pageLength = 10)
+)
+```
+
+### 5. Soil background in PROSAIL
+
+In PROSAIL, the **soil spectrum** is a critical boundary condition,
+especially when the canopy is sparse (low LAI). Soil reflectance can
+strongly influence the visible and near-infrared regions of canopy
+reflectance.
+
+The ToolsRTM package provides reference soil spectra:
+
+-   `dry_soil` → brighter across VIS–NIR, typical of bare or dry soils.
+-   `wet_soil` → darker and flatter, since water reduces soil
+    reflectance.
+
+A mixed soil spectrum is created as a weighted combination of the two,
+controlled by **`psoil`**:
+
+```{r message=FALSE, warning=FALSE}
+
+rsoil.dry <- ToolsRTM::dataSpec_PDB$dry_soil
+rsoil.wet <- ToolsRTM::dataSpec_PDB$wet_soil
+
+psoil    <-  0.5
+
+rsoil.default<- c(psoil*rsoil.dry+(1-psoil)*rsoil.wet)
+
+# Data frame for ggplot
+soil_default_df <- data.frame(
+  Wavelength  = 400:2500,
+  Reflectance = rsoil.default
+)
+
+# Plot with ggplot
+p.soil <- ggplot(soil_default_df, aes(x = Wavelength, y = Reflectance)) +
+  geom_line(color = "blue", size = 0.8) +
+  labs(
+    title = paste0("Default Mixed Soil Spectrum (psoil = ", psoil, ")"),
+    x = "Wavelength (nm)",
+    y = "Reflectance"
+  ) +
+  theme_bw()
+
+# Convert to interactive plotly
+ggplotly(p.soil, tooltip = c("x","y")) %>%
+  config(displaylogo = FALSE)
+```
+
+### 6. Simulate BRF foreach LUT row
+
+For each LUT entry, we run the PROSAIL **fourSAIL canopy model** using
+PROSPECT-PRO at the leaf level. We assume a mixed soil spectrum (50%
+dry, 50% wet). The result is a BRF spectrum for each of the 100 LUT
+samples.
+
+```{r message=FALSE, warning=FALSE, paged.print=FALSE}
+
+wl_grid <- 400:2500  # wavelength grid in dataSpec_PDB
+
+#Simulate PROSAIL (foursail) for each LUT row
+sims <- lapply(seq_len(nrow(LUT)), function(i) {
+  out <- suppressMessages(ToolsRTM::foursail(
+    inputLUT    = LUT[i, ],
+    rsoil       = rsoil.default,
+    LeafModel   = "PROSPECT-PRO",
+    spectrum.all = TRUE
+  ))
+    # out has rdot, rsot, rddt, rsdt; combine to BRF using solar zenith (tts)
+  brf <- ToolsRTM::Compute_BRF(
+    rdot = out$rdot,
+    rsot = out$rsot,
+    tts  = LUT[i, "tts"],
+    data.light = ToolsRTM::dataSpec_PDB
+  )
+  # Return tidy tibble for this run
+  tibble(run = i, wl = wl_grid, rho = as.numeric(brf))
+})
+```
+
+Once all simulations are complete, we aggregate the results to compute a
+**mean spectrum ± standard deviation**. This shows the **overall
+spectral variability** caused by the input parameter ranges.
+
+```{r}
+# 1) Combine all runs
+brf_runs <- dplyr::bind_rows(sims)
+
+# 2) Summarise mean ± sd by wavelength
+spec_stats <- brf_runs %>%
+  group_by(wl) %>%
+  summarise(mean_rho = mean(rho, na.rm = TRUE),
+            sd_rho   = sd(rho,   na.rm = TRUE),
+            .groups  = "drop")
+
+```
+
+The plot below shows all **100 PROSAIL simulations** (gray lines), the
+**mean spectrum** (blue line), and the **variability envelope** (shaded
+area = ± 1 standard deviation). This allows us to see which spectral
+regions are most variable across the sampled LUT.\
+For example:
+
+\- In the **visible region (400–700 nm)**, variability is driven mainly
+by pigment content (Cab, Car, Anth, Cbrown).\
+- In the **NIR plateau (700–1300 nm)**, variability reflects structural
+and canopy parameters such as LAI and leaf angle distribution.\
+- In the **SWIR (1400–2500 nm)**, differences in water (EWT) and dry
+matter (Prot, CBC) dominate.
+
+Explore the interactive plot by hovering to read wavelength–reflectance
+values and toggling the legend items.
+
+```{r message=FALSE, warning=FALSE, paged.print=FALSE}
+p <- ggplot() +
+  geom_line(data = brf_runs, aes(x = wl, y = rho, group = run), alpha = 0.12) +
+  geom_ribbon(data = spec_stats,
+              aes(x = wl, ymin = mean_rho - sd_rho, ymax = mean_rho + sd_rho),
+              inherit.aes = FALSE, alpha = 0.2, fill = "blue") +
+  geom_line(data = spec_stats, aes(x = wl, y = mean_rho),
+            inherit.aes = FALSE, color = "blue") +
+  labs(title = "PROSAIL (custom LUT): mean ± 1 sd (BRDF)",
+       x = "Wavelength (nm)", y = "Reflectance (BRDF)") +
+  theme_bw()
+
+# Convert to interactive plotly
+ggplotly(p)  %>%
+  config(displaylogo = FALSE)
+```
+
+### 7. NDVI from the BRF (per run)
+
+To analyze relationships between simulated traits and vegetation
+indices, we now join the **look-up table (LUT) of input traits** with
+the **NDVI values** calculated from the BRF simulations. This creates a
+single data frame where each row corresponds to a run, containing both
+the input parameters (Cab, LAI, etc.)\
+and the simulated NDVI output.
+
+```{r}
+ndvi_tbl <- brf_runs %>%
+  filter(wl %in% c(670, 800)) %>%
+  tidyr::pivot_wider(names_from = wl, values_from = rho, names_prefix = "wl_") %>%
+  dplyr::mutate(NDVI = (wl_800 - wl_670) / (wl_800 + wl_670)) %>%
+  dplyr::select(run, NDVI)
+
+
+```
+
+The next step is to **combine the input trait table (LUT)** with the
+**NDVI values** calculated from the simulated BRF. We add a `run` index
+to the LUT to ensure that each row matches the corresponding NDVI
+simulation. This produces a single merged table where each entry
+includes both the trait inputs and the\
+NDVI output.
+
+```{r}
+# --- Join NDVI back to LUT by run id ---
+lut_with_run <- round(LUT,3) %>%
+  dplyr::mutate(run = dplyr::row_number())
+
+ndvi_merged <- lut_with_run %>%
+  dplyr::inner_join(ndvi_tbl, by = "run")
+
+# Quick peek
+DT::datatable(head(ndvi_merged), caption = "LUT with NDVI")
+```
+
+To explore how NDVI responds to specific plant traits, we visualize the
+relationship between **NDVI** and two key inputs: chlorophyll content
+(**Cab**) and leaf area index (**LAI**). Both scatterplots include a
+linear regression fit to highlight trends.
+
+```{r}
+# Scatterplots: NDVI vs Cab and NDVI vs LAI
+p1 <- ggplot(ndvi_merged, aes(x = Cab, y = NDVI)) +
+  geom_point(alpha = 0.4, color = "forestgreen") +
+  geom_smooth(method = "lm", se = FALSE, color = "black") +
+  theme_bw() +
+  labs(title = "NDVI vs Cab",
+       x = "Cab (µg/cm²)",
+       y = "NDVI")
+p1
+```
+
+```{r}
+
+p2 <- ggplot(ndvi_merged, aes(x = LAI, y = NDVI)) +
+  geom_point(alpha = 0.4, color = "darkblue") +
+  geom_smooth(method = "lm", se = FALSE, color = "black") +
+  theme_bw() +
+  labs(title = "NDVI vs LAI",
+       x = "LAI (m²/m²)",
+       y = "NDVI")
+        axis.text.x = element_text(angle = 45, hjust = 1)
+p2
+```
