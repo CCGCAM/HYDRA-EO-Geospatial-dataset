@@ -267,7 +267,23 @@ data.plot <- if (use_scl_filter) data.export.veg else data.export
 data.plot$Date <- as.Date(data.plot$Date)
 
 
-ts_summary <- data.plot %>%
+
+# ------------------------------------------------------------
+# Control SCL filtering strategy
+# ------------------------------------------------------------
+use_scl_45 <- F   # TRUE = use SCL 4+5 ; FALSE = use only SCL 4
+
+data.plot.clean <- data.plot %>%
+  dplyr::filter(
+    if (use_scl_45) {
+      SCL %in% c(4, 5)
+    } else {
+      SCL == 4
+    }
+  ) %>%
+  dplyr::filter(NDVI > 0.2)
+
+ts_summary <- data.plot.clean %>%
   group_by(Date) %>%
   summarise(
     mean_NDVI   = mean(NDVI, na.rm = TRUE),
@@ -289,7 +305,7 @@ head(ts_summary)
 ggplot() +
   # all individual time series
   geom_line(
-    data = data.plot,
+    data = data.plot.clean,
     aes(x = Date, y = NDVI, group = ID),
     color = "grey75",
     alpha = 0.5
@@ -325,14 +341,14 @@ ggplot() +
   theme_bw()
 
 
-ts_disease <- data.plot %>%
+ts_disease <- data.plot.clean %>%
   group_by(Date, SCL) %>%
   summarise(mean_NDVI = mean(NDVI, na.rm = TRUE),
             .groups = "drop")
 
 ggplot() +
   # all individual curves
-  geom_line(data = data.plot,
+  geom_line(data = data.plot.clean,
             aes(x = Date, y = NDVI, group = ID),
             color = "grey85", alpha = 0.3) +
 
@@ -343,4 +359,4 @@ ggplot() +
 
   labs(title = "NDVI dynamics by SCL",
        color = "Disease level") +
-  theme_minimal()
+  theme_bw()
