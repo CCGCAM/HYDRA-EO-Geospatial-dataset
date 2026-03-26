@@ -132,11 +132,21 @@ rgb30  <- stack(
   aggregate(b10, fact = 3,  fun = mean, na.rm = TRUE)
 )
 
+writeRaster(rgb300,
+            filename = "RGB_S2_30m_veg.tif",
+            format = "GTiff",
+            overwrite = TRUE)
+
 rgb300 <- stack(
   aggregate(r10, fact = 30, fun = mean, na.rm = TRUE),
   aggregate(g10, fact = 30, fun = mean, na.rm = TRUE),
   aggregate(b10, fact = 30, fun = mean, na.rm = TRUE)
 )
+
+writeRaster(rgb300,
+            filename = "RGB_S2_300m_veg.tif",
+            format = "GTiff",
+            overwrite = TRUE)
 
 plotRGB(rgb10,  r = 1, g = 2, b = 3, stretch = "lin", main = "RGB Sentinel-2 (10 m, veg only)")
 plotRGB(rgb30,  r = 1, g = 2, b = 3, stretch = "lin", main = "RGB Sentinel-2 (30 m, veg only)")
