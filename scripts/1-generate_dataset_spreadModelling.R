@@ -222,7 +222,7 @@ write.table(data.export.veg, file = file.to.export, sep=",", row.names = FALSE, 
 #file.to.import <- paste(paths.outs,'TimeSerie_SE2_Olive_2022_2025_SCL_filtered_with_deseases.csv', sep = '')
 #data.export.veg <- read.csv(file.to.import)
 
-use_scl_filter <- FALSE   # TRUE = use data.export.veg ; FALSE = use data.export
+use_scl_filter <- TRUE   # TRUE = use data.export.veg ; FALSE = use data.export
 
 data.plot <- if (use_scl_filter) data.export.veg else data.export
 
