@@ -217,6 +217,11 @@ write.table(data.export.veg, file = file.to.export, sep=",", row.names = FALSE, 
 # ------------------------------------------------------------
 # 9. Control whether to use SCL-filtered data or full data
 # ------------------------------------------------------------
+
+
+#file.to.import <- paste(paths.outs,'TimeSerie_SE2_Olive_2022_2025_SCL_filtered_with_deseases.csv', sep = '')
+#data.export.veg <- read.csv(file.to.import)
+
 use_scl_filter <- FALSE   # TRUE = use data.export.veg ; FALSE = use data.export
 
 data.plot <- if (use_scl_filter) data.export.veg else data.export
@@ -281,7 +286,7 @@ data.plot.clean <- data.plot %>%
       SCL == 4
     }
   ) %>%
-  dplyr::filter(NDVI > 0.2)
+  dplyr::filter(NDVI > 0.4)
 
 ts_summary <- data.plot.clean %>%
   group_by(Date) %>%
@@ -304,59 +309,89 @@ head(ts_summary)
 # ------------------------------------------------------------
 ggplot() +
   # all individual time series
-  geom_line(
-    data = data.plot.clean,
-    aes(x = Date, y = NDVI, group = ID),
-    color = "grey75",
-    alpha = 0.5
-  ) +
+  geom_line(data = data.plot.clean, aes(x = Date, y = NDVI, group = ID),color = "grey75",alpha = 0.5) +
   # percentile band (25% - 75%)
-  geom_ribbon(
-    data = ts_summary,
-    aes(x = Date, ymin = p25_NDVI, ymax = p75_NDVI),
-    fill = "red",
-    alpha = 0.2
-  ) +
+  geom_ribbon(data = ts_summary, aes(x = Date, ymin = p25_NDVI, ymax = p75_NDVI), fill = "red", alpha = 0.2) +
   # mean line
-  geom_line(
-    data = ts_summary,
-    aes(x = Date, y = mean_NDVI),
-    color = "red",
-    linewidth = 1.2
-  ) +
+  geom_line(data = ts_summary, aes(x = Date, y = mean_NDVI), color = "red", linewidth = 1.2 ) +
   # median line
-  geom_line(
-    data = ts_summary,
-    aes(x = Date, y = median_NDVI),
-    color = "darkred",
-    linetype = "dashed",
-    linewidth = 1
-  ) +
-  labs(
-    title = "NDVI time series for all polygons",
-    subtitle = "Grey lines = individual polygons; Red = mean; Shaded area = 25th–75th percentile",
-    x = "Date",
-    y = "NDVI"
-  ) +
+  geom_line(data = ts_summary,aes(x = Date, y = median_NDVI),color = "darkred",linetype = "dashed",linewidth = 1) +
+  labs(title = "NDVI time series for all polygons",
+    subtitle = "Grey lines = individual polygons; Red = mean; Shaded area = 25th–75th percentile", x = "Date",y = "NDVI") +
   theme_bw()
 
 
 ts_disease <- data.plot.clean %>%
-  group_by(Date, SCL) %>%
+  group_by(Date, disease) %>%
   summarise(mean_NDVI = mean(NDVI, na.rm = TRUE),
             .groups = "drop")
 
 ggplot() +
   # all individual curves
-  geom_line(data = data.plot.clean,
-            aes(x = Date, y = NDVI, group = ID),
-            color = "grey85", alpha = 0.3) +
-
+  geom_line(data = data.plot.clean,aes(x = Date, y = NDVI, group = ID), color = "grey85", alpha = 0.3) +
   # mean per disease class
-  geom_line(data = ts_disease,
-            aes(x = Date, y = mean_NDVI, color = as.factor(SCL)),
-            linewidth = 1.3) +
-
-  labs(title = "NDVI dynamics by SCL",
-       color = "Disease level") +
+  geom_line(data = ts_disease,aes(x = Date, y = mean_NDVI, color = as.factor(disease)), linewidth = 1.3) +
+  labs(title = "NDVI dynamics by disease", color = "Disease level") +
   theme_bw()
+# ------------------------------------------------------------
+# 12. Disease classification based on spectral indicators
+# Using CR.red.nir.6, CR.SWIR, NDWI2, MSAVI
+# Thresholds derived from data distribution (summary)
+# ------------------------------------------------------------
+
+# ---- Define thresholds from quantiles (robust approach)
+thr_CR_SWIR  <- quantile(data.plot.clean$CR.SWIR,  0.25, na.rm = TRUE)
+thr_NDWI2    <- quantile(data.plot.clean$NDWI2,    0.25, na.rm = TRUE)
+thr_MSAVI    <- quantile(data.plot.clean$MSAVI,    0.25, na.rm = TRUE)
+thr_CRrednir <- quantile(data.plot.clean$CR.red.nir.6, 0.75, na.rm = TRUE)
+
+# ---- Option 1: Rule-based classification (strict)
+data.plot.clean <- data.plot.clean %>%
+  dplyr::mutate(
+    disease_rule = ifelse(
+      CR.SWIR < thr_CR_SWIR &
+        NDWI2   < thr_NDWI2 &
+        MSAVI   < thr_MSAVI,
+      1, 0
+    )
+  )
+
+# ---- Option 2: Score-based classification (recommended)
+data.plot.clean <- data.plot.clean %>%
+  group_by(Date) %>%
+  dplyr::mutate(
+    score_stress =
+      scale(-CR.SWIR)[,1] +
+      scale(-NDWI2)[,1] +
+      scale(-MSAVI)[,1] +
+      scale(CR.red.nir.6)[,1],
+
+    disease_est = ifelse(
+      score_stress >= quantile(score_stress, 0.75, na.rm = TRUE),
+      1, 0
+    )
+  ) %>%
+
+  ungroup()
+
+# ---- Check results
+table(data.plot.clean$disease_est)
+summary(data.plot.clean$score_stress)
+
+ts_disease <- data.plot.clean %>%
+  group_by(Date, disease_est) %>%
+  summarise(NDVI = mean(NDVI, na.rm = TRUE),
+            CR.SWIR= mean(CR.SWIR, na.rm = TRUE),
+            MSAVI= mean(MSAVI, na.rm = TRUE),
+            CR.red.nir= mean(CR.red.nir.6, na.rm = TRUE),
+            .groups = "drop") %>%
+  dplyr::filter(!is.na(disease_est))
+
+ggplot() +
+  # all individual curves
+  geom_line(data = data.plot.clean,aes(x = Date, y = CR.red.nir.6, group = ID), color = "grey85", alpha = 0.3) +
+  # mean per disease class
+  geom_line(data = ts_disease,aes(x = Date, y = CR.red.nir, color = as.factor(disease_est)), linewidth = 1.3) +
+  labs(title = "CR.red.nir dynamics by disease", color = "Disease level") +
+  theme_bw()
+
