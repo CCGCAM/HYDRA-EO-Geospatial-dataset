@@ -11,6 +11,7 @@
 #' @examples
 get.indices.v2 <-function (data, pattern.rfl = "R.", factor = NULL, spectral.domain = NULL)
 {
+  # factor
   if (is.null(factor)) {
     factor <- 1
   }
