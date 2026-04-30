@@ -5,5 +5,5 @@ Subfolders:
 - enmap/: hyperspectral data (~30 m resolution)
 - prisma/: hyperspectral satellite data
 - thermal/: thermal satellite datasets (e.g., Landsat, ECOSTRESS)
-
+- chime_sim/: Simulated CHIME satellite datasets
 These datasets support large-scale monitoring and multi-sensor analysis.

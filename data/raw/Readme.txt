@@ -4,5 +4,6 @@ Levels include:
 - Satellite data (e.g., Sentinel-2, EnMAP, PRISMA)
 - Airborne and UAV data
 - Field measurements
+- metadata: GPS coordinates, flight data,vector files etc..
 
 All datasets are stored in their original format and should not be modified.
