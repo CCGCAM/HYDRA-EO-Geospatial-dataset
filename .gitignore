@@ -15,7 +15,6 @@
 .DS_Store
 **/.DS_Store
 *.tiff
-data/EnMAP/*
-data/Vector_files/*
+data/Others/*
 data/Sentinel-2/Series/*
 Tables/results/*
