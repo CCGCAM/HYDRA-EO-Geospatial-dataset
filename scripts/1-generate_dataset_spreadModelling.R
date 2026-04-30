@@ -90,7 +90,8 @@ paths.se2a='data/Sentinel-2/Series/Chaparrillo/' # Scenario for fungus outbreaks
 paths.shape  <- "data/sites/Olive-Pistachio-CIAG_trees/"
 paths.outs  <- "Tables/results/"
 
-if (!dir.exists(paths.outs)) dir.create(paths.outs, recursive = TRUE)
+paths.maia='data/MAIA/' # Scenario for fungus outbreaks
+if (!dir.exists(paths.maia)) dir.create(paths.maia, recursive = TRUE)
 
 # ------------------------------------------------------------------------------
 # 3. Read Sentinel-2 files
