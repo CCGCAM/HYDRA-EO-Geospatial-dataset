@@ -86,6 +86,7 @@ HYDRA-EO/
 │  ├─ raw/                # raw acquisitions (not tracked)
 │  ├─ interim/            # intermediate geospatial products
 │  └─ processed/          # example outputs / derived products
+│  └─ matchup/            # spatio-temporal matchups between datasets
 ├─ scripts/               # geospatial analysis code (R / Python)
 │  ├─ R/
 │  └─ python/
