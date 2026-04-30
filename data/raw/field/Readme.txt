@@ -6,5 +6,8 @@ Subfolders include:
 - biochemistry/: pigment and nutrient analysis
 - qpcr/: pathogen detection (e.g., Xylella fastidiosa)
 - genomics/: molecular and sequencing data
+- calibration/: spectroradiometers measurements
+- metabolomics/: metabolomic data
+
 
 These datasets are used for validation and model calibration.
